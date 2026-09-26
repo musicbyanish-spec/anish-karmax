@@ -5,17 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#050505" />
   <title>ANISH / KARMA X — Official Artist Experience</title>
-  <meta name="description" content="Official artist experience and electronic press kit for ANISH and KARMA X." />
+  <meta name="description" content="Official artist experience and media kit for ANISH and KARMA X." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="v4-fixes.css" />
 </head>
 <body>
   <div class="grain"></div>
   <div class="cursor" id="cursor"><span>VIEW</span></div>
   <div class="transition-wipe" id="transitionWipe"><span id="wipeLabel">ANISH</span></div>
-
   <div class="intro" id="intro">
     <div class="intro-bg intro-bg-a"></div>
     <div class="intro-bg intro-bg-k"></div>
@@ -41,8 +41,7 @@
     <section class="split-hero" aria-label="Choose artist identity">
       <button class="hero-half anish-half" data-go="anish" data-label="ANISH">
         <img src="assets/images/anish-hero.webp" alt="ANISH artist portrait" />
-        <div class="hero-pan"></div>
-        <div class="veil"></div>
+        <div class="hero-pan"></div><div class="veil"></div>
         <div class="hero-index">01 / ELECTRONIC</div>
         <div class="hero-copy">
           <p>EDM / HOUSE / FESTIVAL</p>
@@ -54,8 +53,7 @@
 
       <button class="hero-half karma-half" data-go="karma" data-label="KARMA X">
         <img src="assets/images/karma-hero.webp" alt="KARMA X artist portrait" />
-        <div class="hero-pan"></div>
-        <div class="veil"></div>
+        <div class="hero-pan"></div><div class="veil"></div>
         <div class="hero-index">02 / BOLLYWOOD</div>
         <div class="hero-copy">
           <p>DESI / ELECTRONIC / LIVE</p>
@@ -77,50 +75,25 @@
     <section class="world world-anish" id="anish" data-theme="anish">
       <div class="ambient-word">ANISH</div>
       <div class="world-number">WORLD 01</div>
-      <div class="world-title sticky-title">
-        <p>ANISH</p>
-        <h2>HOUSE.<br>ENERGY.<br>EMOTION.</h2>
-      </div>
-
+      <div class="world-title sticky-title"><p>ANISH</p><h2>HOUSE.<br>ENERGY.<br>EMOTION.</h2></div>
       <div class="world-intro reveal">
         <p class="lead">A producer and DJ shaped by electronic music, live sound and visual culture.</p>
         <p>ANISH explores Future House, Progressive House and melodic electronic music with a focus on movement, emotion and the scale of the live stage.</p>
       </div>
-
       <section class="showreel showreel-anish reveal" aria-label="ANISH cinematic showreel placeholder">
         <img src="assets/images/anish-live.webp" alt="ANISH performance visual" />
         <div class="showreel-shade"></div>
-        <div class="showreel-copy">
-          <span>SHOWREEL / VIDEO-READY</span>
-          <h3>FEEL<br>THE<br>ROOM.</h3>
-        </div>
+        <div class="showreel-copy"><span>SHOWREEL / VIDEO-READY</span><h3>FEEL<br>THE<br>ROOM.</h3></div>
         <div class="play-orbit"><b>▶</b><span>DROP ANISH SHOWREEL HERE</span></div>
         <div class="frame-counter">00:00 / 01:00</div>
       </section>
-
       <div class="anish-grid">
-        <figure class="visual a1 reveal parallax-card" data-speed=".08">
-          <img src="assets/images/anish-live.webp" alt="ANISH studio portrait" />
-          <figcaption>01 — ELECTRONIC</figcaption>
-        </figure>
-        <figure class="visual a2 reveal parallax-card" data-speed="-.06">
-          <img src="assets/images/anish-portrait.webp" alt="ANISH portrait" />
-          <figcaption>02 — ARTIST</figcaption>
-        </figure>
-        <div class="type-card reveal">
-          <span>SKILLS</span>
-          <p>DJ<br>Electronic Music Producer<br>Studio Engineer<br>Live Sound Engineer<br>Visual Producer</p>
-        </div>
-        <figure class="visual a3 reveal parallax-card" data-speed=".04">
-          <img src="assets/images/anish-editorial.webp" alt="ANISH editorial portrait" />
-          <figcaption>03 — VISUAL LANGUAGE</figcaption>
-        </figure>
+        <figure class="visual a1 reveal parallax-card" data-speed=".08"><img src="assets/images/anish-live.webp" alt="ANISH performance" /><figcaption>01 — ELECTRONIC</figcaption></figure>
+        <figure class="visual a2 reveal parallax-card" data-speed="-.06"><img src="assets/images/anish-portrait.webp" alt="ANISH portrait" /><figcaption>02 — ARTIST</figcaption></figure>
+        <div class="type-card reveal"><span>SKILLS</span><p>DJ<br>Electronic Music Producer<br>Studio Engineer<br>Live Sound Engineer<br>Visual Producer</p></div>
+        <figure class="visual a3 reveal parallax-card" data-speed=".04"><img src="assets/images/anish-editorial.webp" alt="ANISH editorial" /><figcaption>03 — VISUAL LANGUAGE</figcaption></figure>
       </div>
-
-      <div class="statement reveal">
-        <span>THE SOUND</span>
-        <p>BUILT FOR THE MOMENT<br>WHEN A ROOM BECOMES<br>ONE MOVING BODY.</p>
-      </div>
+      <div class="statement reveal"><span>THE SOUND</span><p>BUILT FOR THE MOMENT<br>WHEN A ROOM BECOMES<br>ONE MOVING BODY.</p></div>
     </section>
 
     <section class="identity-gate" aria-hidden="true">
@@ -129,104 +102,128 @@
 
     <section class="world world-karma" id="karma" data-theme="karma">
       <div class="ambient-word">KARMA X</div>
-      <div class="karma-logo-wrap reveal">
-        <img src="assets/images/karma-logo.webp" alt="KARMA X logo" />
-      </div>
+      <div class="karma-logo-wrap reveal"><img src="assets/images/karma-logo.webp" alt="KARMA X logo" /></div>
       <div class="world-number">WORLD 02</div>
-      <div class="world-title sticky-title">
-        <p>KARMA X</p>
-        <h2>BOLLYWOOD.<br>REWIRED.</h2>
-      </div>
-
+      <div class="world-title sticky-title"><p>KARMA X</p><h2>BOLLYWOOD.<br>REWIRED.</h2></div>
       <div class="world-intro reveal">
         <p class="lead">Indian musical roots pushed through modern electronic pressure.</p>
         <p>KARMA X blends Indian melodies, vocals and percussion with high-energy drops, groove-heavy basslines and cinematic builds for clubs, festivals and immersive live experiences.</p>
       </div>
-
       <section class="showreel showreel-karma reveal" aria-label="KARMA X cinematic showreel placeholder">
         <img src="assets/images/karma-red.webp" alt="KARMA X performance visual" />
         <div class="showreel-shade"></div>
-        <div class="showreel-copy">
-          <span>LIVE EXPERIENCE / VIDEO-READY</span>
-          <h3>INDIA<br>AFTER<br>DARK.</h3>
-        </div>
+        <div class="showreel-copy"><span>LIVE EXPERIENCE / VIDEO-READY</span><h3>INDIA<br>AFTER<br>DARK.</h3></div>
         <div class="play-orbit dark"><b>▶</b><span>DROP KARMA X SHOWREEL HERE</span></div>
         <div class="frame-counter">00:00 / 01:00</div>
       </section>
-
       <div class="karma-grid">
-        <figure class="visual k1 reveal parallax-card" data-speed=".07">
-          <img src="assets/images/karma-red.webp" alt="KARMA X red portrait" />
-          <figcaption>01 — CONTROLLED CHAOS</figcaption>
-        </figure>
-        <div class="karma-copy reveal">
-          <span>DESI / GLOBAL</span>
-          <h3>ROOTED<br>HERE.<br>BUILT<br>FOR<br>EVERYWHERE.</h3>
-        </div>
-        <figure class="visual k2 reveal parallax-card" data-speed="-.05">
-          <img src="assets/images/karma-white.webp" alt="KARMA X portrait" />
-          <figcaption>02 — CULTURE × CLUB</figcaption>
-        </figure>
-        <figure class="visual k3 reveal parallax-card" data-speed=".04">
-          <img src="assets/images/karma-chair.webp" alt="KARMA X seated portrait" />
-          <figcaption>03 — BOLLYWOOD REIMAGINED</figcaption>
-        </figure>
-        <figure class="visual k4 reveal parallax-card" data-speed="-.04">
-          <img src="assets/images/karma-yellow.webp" alt="KARMA X yellow portrait" />
-          <figcaption>04 — HIGH ENERGY</figcaption>
-        </figure>
+        <figure class="visual k1 reveal parallax-card" data-speed=".07"><img src="assets/images/karma-red.webp" alt="KARMA X portrait" /><figcaption>01 — CONTROLLED CHAOS</figcaption></figure>
+        <div class="karma-copy reveal"><span>DESI / GLOBAL</span><h3>ROOTED<br>HERE.<br>BUILT<br>FOR<br>EVERYWHERE.</h3></div>
+        <figure class="visual k2 reveal parallax-card" data-speed="-.05"><img src="assets/images/karma-white.webp" alt="KARMA X portrait" /><figcaption>02 — CULTURE × CLUB</figcaption></figure>
+        <figure class="visual k3 reveal parallax-card" data-speed=".04"><img src="assets/images/karma-chair.webp" alt="KARMA X seated portrait" /><figcaption>03 — BOLLYWOOD REIMAGINED</figcaption></figure>
+        <figure class="visual k4 reveal parallax-card" data-speed="-.04"><img src="assets/images/karma-yellow.webp" alt="KARMA X portrait" /><figcaption>04 — HIGH ENERGY</figcaption></figure>
       </div>
     </section>
 
     <section class="bridge">
-      <div class="bridge-glitch">A / KX</div>
-      <p>NOT A GENRE SWITCH.</p>
-      <h2>A CHANGE<br>OF UNIVERSE.</h2>
+      <div class="bridge-glitch">A / KX</div><p>NOT A GENRE SWITCH.</p><h2>A CHANGE<br>OF UNIVERSE.</h2>
       <div class="bridge-split"><span>ANISH / ELECTRONIC FUTURE</span><span>KARMA X / INDIAN ENERGY</span></div>
     </section>
 
+    <!-- V4 PRESS KIT: MEDIA ASSETS FIRST -->
     <section class="press" id="press">
       <div class="press-head">
         <span>PRESS / PROMOTERS / VENUES</span>
-        <h2>THE PROFESSIONAL<br>LAYER.</h2>
-        <p>The visual experience stays cinematic. The press kit stays fast, clear and practical.</p>
+        <h2>MEDIA<br>KIT.</h2>
+        <p>Official photography, logos and artist assets — ready to download and use.</p>
       </div>
 
       <div class="press-tabs" role="tablist">
-        <button class="press-tab active" data-panel="pAnish">ANISH EPK</button>
-        <button class="press-tab" data-panel="pKarma">KARMA X EPK</button>
+        <button class="press-tab active" data-panel="pAnish">ANISH</button>
+        <button class="press-tab" data-panel="pKarma">KARMA X</button>
       </div>
 
       <div class="press-panel active" id="pAnish">
-        <div class="press-cover anish-cover">
-          <img src="assets/images/anish-hero.webp" alt="ANISH press kit cover" />
-          <div><small>ELECTRONIC PRESS KIT</small><strong>ANISH</strong></div>
+        <div class="media-heading">
+          <span>01 / ANISH</span>
+          <h3>PHOTOS + LOGOS</h3>
         </div>
-        <div class="press-details">
-          <article><span>01</span><h3>ABOUT</h3><p>Artist bio and creative background.</p></article>
-          <article><span>02</span><h3>SKILLS</h3><p>DJ, production, studio, live sound and visual work.</p></article>
-          <article><span>03</span><h3>SHOWS</h3><p>Selected venue and event history.</p></article>
-          <article><span>04</span><h3>TECHNICAL</h3><p>Production requirements available separately.</p></article>
+
+        <div class="asset-grid">
+          <a class="asset-card asset-photo" href="assets/images/anish-hero.webp" download>
+            <img src="assets/images/anish-hero.webp" alt="ANISH hero photo">
+            <div><small>PHOTO / HERO</small><strong>DOWNLOAD</strong></div>
+          </a>
+          <a class="asset-card asset-photo" href="assets/images/anish-portrait.webp" download>
+            <img src="assets/images/anish-portrait.webp" alt="ANISH portrait photo">
+            <div><small>PHOTO / PORTRAIT</small><strong>DOWNLOAD</strong></div>
+          </a>
+          <a class="asset-card asset-photo" href="assets/images/anish-live.webp" download>
+            <img src="assets/images/anish-live.webp" alt="ANISH live photo">
+            <div><small>PHOTO / LIVE</small><strong>DOWNLOAD</strong></div>
+          </a>
+          <a class="asset-card asset-photo" href="assets/images/anish-editorial.webp" download>
+            <img src="assets/images/anish-editorial.webp" alt="ANISH editorial photo">
+            <div><small>PHOTO / EDITORIAL</small><strong>DOWNLOAD</strong></div>
+          </a>
         </div>
+
+        <div class="logo-assets">
+          <div class="logo-box">
+            <span>ANISH / LOGO</span>
+            <div class="anish-wordmark">ANISH</div>
+            <small>Use the official ANISH wordmark supplied in the asset pack.</small>
+          </div>
+          <div class="asset-downloads">
+            <a href="assets/press/ANISH-PHOTO-PACK.zip" download>PHOTO PACK <b>↓</b></a>
+            <a href="assets/press/ANISH-LOGO-PACK.zip" download>LOGO PACK <b>↓</b></a>
+          </div>
+        </div>
+
         <div class="download-row">
-          <a href="assets/press/ANISH-2026-EPK.pdf" download>DOWNLOAD ANISH EPK <b>↓</b></a>
+          <a href="assets/press/ANISH-2026-EPK.pdf" download>FULL ANISH EPK <b>↓</b></a>
           <a href="assets/press/TECHNICAL-RIDER.pdf" download>TECHNICAL RIDER <b>↓</b></a>
         </div>
       </div>
 
       <div class="press-panel" id="pKarma">
-        <div class="press-cover karma-cover">
-          <img src="assets/images/karma-white.webp" alt="KARMA X press kit cover" />
-          <div><small>PRESS KIT / LIVE PROJECT</small><strong>KARMA X</strong></div>
+        <div class="media-heading">
+          <span>02 / KARMA X</span>
+          <h3>PHOTOS + LOGOS</h3>
         </div>
-        <div class="press-details">
-          <article><span>01</span><h3>ABOUT</h3><p>Project concept and sonic identity.</p></article>
-          <article><span>02</span><h3>SKILLS</h3><p>DJ, electronic production, studio and visuals.</p></article>
-          <article><span>03</span><h3>VENUES</h3><p>Selected club and event appearances.</p></article>
-          <article><span>04</span><h3>TECHNICAL</h3><p>Stage and production requirements.</p></article>
+
+        <div class="asset-grid">
+          <a class="asset-card asset-photo" href="assets/images/karma-hero.webp" download>
+            <img src="assets/images/karma-hero.webp" alt="KARMA X hero photo">
+            <div><small>PHOTO / HERO</small><strong>DOWNLOAD</strong></div>
+          </a>
+          <a class="asset-card asset-photo" href="assets/images/karma-red.webp" download>
+            <img src="assets/images/karma-red.webp" alt="KARMA X red photo">
+            <div><small>PHOTO / PERFORMANCE</small><strong>DOWNLOAD</strong></div>
+          </a>
+          <a class="asset-card asset-photo" href="assets/images/karma-white.webp" download>
+            <img src="assets/images/karma-white.webp" alt="KARMA X white photo">
+            <div><small>PHOTO / PORTRAIT</small><strong>DOWNLOAD</strong></div>
+          </a>
+          <a class="asset-card asset-photo" href="assets/images/karma-chair.webp" download>
+            <img src="assets/images/karma-chair.webp" alt="KARMA X seated photo">
+            <div><small>PHOTO / EDITORIAL</small><strong>DOWNLOAD</strong></div>
+          </a>
         </div>
+
+        <div class="logo-assets">
+          <div class="logo-box karma-logo-box">
+            <span>KARMA X / LOGO</span>
+            <img src="assets/images/karma-logo.webp" alt="KARMA X logo">
+          </div>
+          <div class="asset-downloads">
+            <a href="assets/press/KARMA-X-PHOTO-PACK.zip" download>PHOTO PACK <b>↓</b></a>
+            <a href="assets/press/KARMA-X-LOGO-PACK.zip" download>LOGO PACK <b>↓</b></a>
+          </div>
+        </div>
+
         <div class="download-row">
-          <a href="assets/press/KARMA-X-2026-EPK.pdf" download>DOWNLOAD KARMA X EPK <b>↓</b></a>
+          <a href="assets/press/KARMA-X-2026-EPK.pdf" download>FULL KARMA X EPK <b>↓</b></a>
           <a href="assets/press/TECHNICAL-RIDER.pdf" download>TECHNICAL RIDER <b>↓</b></a>
         </div>
       </div>
@@ -239,7 +236,7 @@
     </section>
   </main>
 
-  <footer><span>© 2026 ANISH / KARMA X</span><span>OFFICIAL ARTIST EXPERIENCE + EPK</span></footer>
+  <footer><span>© 2026 ANISH / KARMA X</span><span>OFFICIAL ARTIST EXPERIENCE + MEDIA KIT</span></footer>
   <script src="script.js"></script>
 </body>
 </html>
