@@ -30,3 +30,6 @@ Open `index.html` directly, or run a simple local web server in this folder.
 
 ## Free deployment
 Upload this folder to GitHub and connect the repository to Cloudflare Pages. No paid hosting is required.
+
+V4 deployment
+
