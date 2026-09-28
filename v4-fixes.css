@@ -234,3 +234,22 @@
     max-width: 100% !important;
   }
 }
+/* KARMA X — guaranteed desktop fit */
+@media (min-width: 901px) {
+  .karma-half {
+    overflow: hidden !important;
+  }
+
+  .karma-half .hero-copy {
+    left: 24px !important;
+    right: 24px !important;
+    width: calc(100% - 48px) !important;
+  }
+
+  .karma-half .hero-copy h1 {
+    font-size: clamp(52px, 4.35vw, 70px) !important;
+    line-height: .82 !important;
+    letter-spacing: -.075em !important;
+    white-space: nowrap !important;
+  }
+}
