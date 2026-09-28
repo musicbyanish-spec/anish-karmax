@@ -216,3 +216,21 @@
     margin-top:18px;
   }
 }
+/* FINAL KARMA X HERO FIT */
+@media (min-width: 901px) {
+  .karma-half .hero-copy {
+    left: 26px !important;
+    right: 34px !important;
+    width: auto !important;
+    max-width: none !important;
+  }
+
+  .karma-half .hero-copy h1 {
+    font-size: clamp(54px, 5vw, 82px) !important;
+    line-height: .80 !important;
+    letter-spacing: -.085em !important;
+    white-space: nowrap !important;
+    width: auto !important;
+    max-width: 100% !important;
+  }
+}
